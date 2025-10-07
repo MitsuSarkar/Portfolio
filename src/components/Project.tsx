@@ -9,6 +9,9 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
+import mock11 from '../assets/images/mock11.png';
+import mock12 from '../assets/images/mock12.png';
+import mock13 from '../assets/images/mock13.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -25,6 +28,11 @@ function Project() {
                 <a href="https://github.com/MitsuSarkar/Spotify-Dashboard" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/MitsuSarkar/Spotify-Dashboard" target="_blank" rel="noreferrer"><h2>Spotify Dashboard</h2></a>
                 <p>This Power BI dashboard allows you to explore and analyze your Spotify listening history. It contains visualizations and insights about your top tracks, artists, albums and how your music tastes have changed over time.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/MitsuSarkar/Jira-Cloud-Project" target="_blank" rel="noreferrer"><img src={mock11} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/MitsuSarkar/Jira-Cloud-Project" target="_blank" rel="noreferrer"><h2>JIRA FINANCE VARIANCE DASHBOARD</h2></a>
+                <p>This project shows how I adapted Jira Cloud to run a finance variance review workflow for month-end close.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/MitsuSarkar/Amazon-dashboard-power-bi" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -66,9 +74,19 @@ function Project() {
                 <a href="https://github.com/MitsuSarkar/Game-sales/tree/main" target="_blank" rel="noreferrer"><h2>GAME SALES DASHBOARD</h2></a>
                 <p>The Game Sales Dashboard in Power BI analyzes video game sales data, providing insights into performance, trends, and customer preferences. It features metrics like total sales, top games, platform performance, and regional breakdowns, with interactive filters for detailed exploration. Ideal for stakeholders, it highlights sales trends, market share, and genre analysis, helping optimize strategies and uncover actionable insights in the gaming industry.</p>
             </div>
+            <div className="project">
+                <a href="https://github.com/MitsuSarkar/CorePanda" target="_blank" rel="noreferrer"><img src={mock12} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/MitsuSarkar/CorePanda" target="_blank" rel="noreferrer"><h2>COREPANDA</h2></a>
+                <p>CorePanda is a lightweight Windows tray application that animates a cute GIF in your system tray. It also displays your CPU usage and temperature in real-time, and adjusts the animation speed dynamically based on CPU load.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/MitsuSarkar/fashion-erp-suite" target="_blank" rel="noreferrer"><img src={mock13} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/MitsuSarkar/fashion-erp-suite" target="_blank" rel="noreferrer"><h2>FASHION ERP SUITE</h2></a>
+                <p>A learning project that grew into a brand-ready ERP for fashion/retail. Front-to-back: React + Vite (TS), Express (REST), SQLite DB. Supports multiple brands as isolated organizations (H&M, M&S, or your own). Includes a KPI dashboard, merchandising → SKUs, POs, inventory, sales/OMS, CSV import/export, dark mode + theming.</p>
+            </div>
         </div>
     </div>
-    );
+    );  
 }
 
 export default Project;

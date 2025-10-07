@@ -15,6 +15,8 @@ const labelsFirst = [
     "MySQL",
     "Python",
     "PostgreSQL",
+    "Jira",
+    "Jira Cloud"
 ];
 
 const labelsSecond = [
